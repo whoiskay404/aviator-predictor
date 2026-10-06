@@ -9,6 +9,8 @@ honestly when it doesn't have enough data yet.
 Every round of a provably fair crash game is independent; this tool gives
 probability estimates, never certainties.
 
+-----> https://aviator-odds.streamlit.app/
+
 ## Features
 
 ### Predict tab (the point of the app)
