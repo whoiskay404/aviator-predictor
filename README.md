@@ -54,6 +54,10 @@ like `60 rounds · THEORY mode`), one honest disclaimer line, then the hero:
   risk high → target low) and the doubling stake ladder (P10 → P20 → double
   after each loss until a win, then back to P10), with the honest note that
   the ladder never changes the -3% edge.
+- **Mobile friendly** - below 760px every column row stacks vertically
+  (hero, metrics, editors), the PREDICT and odd circles shrink to 200px
+  (150px in short landscape viewports), the minute strip wraps and the
+  sidebar collapses into the hamburger menu.
 
 ### Data tab (feeding the predictor)
 

@@ -422,12 +422,33 @@ button.st-key-restore_seed:hover, button.st-key-yes_restore:hover {
         padding-left: 16px !important;
         padding-right: 16px !important;
     }
+    [data-testid="stHorizontalBlock"] {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+    [data-testid="stHorizontalBlock"] > * {
+        flex: none !important;
+        width: 100% !important;
+        min-width: 0 !important;
+    }
     .st-key-predict_btn button, button.st-key-predict_btn, #odd-circle {
         width: 200px !important;
         height: 200px !important;
         min-height: 200px !important;
     }
     .odd-value { font-size: 46px !important; }
+    .hero-meta { font-size: 12px !important; }
+    .strip-pill { padding: 6px 11px !important; font-size: 12px !important; }
+    .dev-links a { width: 36px !important; height: 36px !important; }
+    .st-key-predict_minute { max-width: 100% !important; }
+}
+@media (max-width: 760px) and (max-height: 520px) {
+    .st-key-predict_btn button, button.st-key-predict_btn, #odd-circle {
+        width: 150px !important;
+        height: 150px !important;
+        min-height: 150px !important;
+    }
+    .odd-value { font-size: 36px !important; }
 }
 </style>
 """
